@@ -1,4 +1,4 @@
-package classPractice.objectFeb28;
+package pragraClass.objectFeb28;
 
 public class ZooMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package classPractice.march7Array;
+package pragraClass.march7Array;
 
 public class Student {
 String name;

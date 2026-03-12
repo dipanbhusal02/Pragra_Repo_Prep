@@ -1,4 +1,4 @@
-package classPractice.march3Array;
+package pragraClass.march3Array;
 
 public class DescindingOrder {
     public static void main(String[] args) {

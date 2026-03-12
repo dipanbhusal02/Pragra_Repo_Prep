@@ -1,4 +1,4 @@
-package classPractice.randomPractice;
+package pragraClass.randomPractice;
 import java.util.Scanner;
 public class WhileLoopPrintOdd {
     public static void main(String[] args) {

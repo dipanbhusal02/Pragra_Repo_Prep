@@ -1,6 +1,4 @@
-package classPractice.march3Array;
-
-import classPractice.march7Array.Array2DMethod;
+package pragraClass.march3Array;
 
 public class ReverseTheArray {
     public static void main(String[] args) {

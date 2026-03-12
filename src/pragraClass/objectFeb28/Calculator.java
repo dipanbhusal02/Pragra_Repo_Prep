@@ -1,4 +1,4 @@
-package classPractice.objectFeb28;
+package pragraClass.objectFeb28;
 
 public class Calculator {
     void sum(int num1, int num2){

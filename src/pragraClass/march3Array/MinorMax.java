@@ -1,4 +1,4 @@
-package classPractice.march3Array;
+package pragraClass.march3Array;
 
 import java.util.Arrays;
 

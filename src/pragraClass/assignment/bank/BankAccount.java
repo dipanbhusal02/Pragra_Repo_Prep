@@ -1,4 +1,4 @@
-package pragraClass.assignment;
+package pragraClass.assignment.bank;
 
 public class BankAccount {
     String name;
@@ -10,8 +10,7 @@ public class BankAccount {
     }
 
     public void display() {
-        System.out.println("Account name: "+ name);
-        System.out.println("Account Balance: "+ balance);
+        System.out.println(" Name: "+ name + "        Balance: "+ balance);
     }
 
     public void withdraw(double amount) {

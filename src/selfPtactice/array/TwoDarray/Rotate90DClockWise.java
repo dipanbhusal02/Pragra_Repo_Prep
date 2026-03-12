@@ -32,18 +32,17 @@ public class Rotate90DClockWise {
                 }
             }
         }
-        for (int i = 0 ; i<row ; i++){
-            for(int j=0; j<column; j++){
-                int last = column-1;
-                int first = 0;
-                while(last>first){
-                    int ass = array[i][first];
-                    array[i][first]= array[i][last];
-                    array[i][last]=ass;
-                    last--;
-                    first++;
-                }
+        for (int i = 0; i < row; i++) {
+            int last = column - 1;
+            int first = 0;
+            while (last > first) {
+                int ass = array[i][first];
+                array[i][first] = array[i][last];
+                array[i][last] = ass;
+                last--;
+                first++;
             }
+
         }
 
 

@@ -1,4 +1,4 @@
-package classPractice.objectFeb28;
+package pragraClass.objectFeb28;
 
 import java.util.Scanner;
 

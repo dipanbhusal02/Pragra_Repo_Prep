@@ -1,6 +1,5 @@
-package classPractice.march7Array;
+package pragraClass.march7Array;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class JustPrintandDisplay {
