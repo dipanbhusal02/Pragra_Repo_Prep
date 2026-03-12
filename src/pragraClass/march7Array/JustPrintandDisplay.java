@@ -1,5 +1,6 @@
 package classPractice.march7Array;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class JustPrintandDisplay {
@@ -13,9 +14,10 @@ public class JustPrintandDisplay {
         array.InitializeArray(row, column);
         array.GetArrayFromUser();
         array.displayArray();
-        array.checkSaddlePoint();
+        System.out.println("\nThe 90 degree rotation of the whole array is as: ");
         array.transpose();
         array.reverseRow();
+        array.displayArray();
 
 
 

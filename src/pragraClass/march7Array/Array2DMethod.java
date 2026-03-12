@@ -25,7 +25,6 @@ public class Array2DMethod {
     }
 
     public void displayArray() {
-        System.out.println("\n You created the following array: ");
         for (int i = 0; i < array.length; i++) {
             System.out.println();
             for (int j = 0; j < array[i].length; j++) {
