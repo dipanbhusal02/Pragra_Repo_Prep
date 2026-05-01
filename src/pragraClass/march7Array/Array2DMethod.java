@@ -11,11 +11,11 @@ public class Array2DMethod {
 
     }
 
-    public void InitializeArray(int row, int column) {
+    public void initializeArray(int row, int column) {
         this.array = new int[row][column];
     }
 
-    public void GetArrayFromUser() {
+    public void getArrayFromUser() {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.println("Please enter the value at index " + i + " " + j);
@@ -97,4 +97,35 @@ public class Array2DMethod {
             }
         }
     }
+
+    public void greatest() {
+        int gratest = array[0][0];
+        for(int i = 0; i<array.length; i++){
+            for ( int j = 0; j<array[i].length;j++){
+                if(array[i][j]>gratest){
+                    gratest = array[i][j];
+                }
+            }
+        }
+        System.out.println("\nThe Gratest: " + gratest);
+
+    }
+
+    public void sumOfRow() {
+        int [] row = new int[array.length];
+        for(int i= 0; i< array.length;i++){
+            int sum = 0;
+            for(int j=0; j<array[i].length; j++){
+                sum += array[i][j];
+                row[i]= sum;
+            }
+
+        }
+        for (int i = 0; i<row.length; i++){
+            System.out.println("The sum of row "+i+" is: "+ row[i]);
+        }
+
+
+    }
+
 }
